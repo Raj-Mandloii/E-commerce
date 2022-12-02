@@ -7,8 +7,9 @@ import "./Home.scss";
   return (
     <div className='home'>
       <Slider/>
-      <FeaturedProducts/>
-    </div>``
+      <FeaturedProducts type="feautured"/>
+      <FeaturedProducts type="trending"/>
+    </div>
   )
 }
 
