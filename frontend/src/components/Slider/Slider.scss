@@ -1,6 +1,6 @@
 .slider{
     height: calc(100vh - 80px);
-    width: 100vw;
+    width: 100%; // 100vw
     position: relative;
     overflow: hidden;
   
@@ -9,6 +9,7 @@
       height: 100%;
       display: flex;
       transition: all 1s ease;
+     
   
       img{
         width: 100vw;

@@ -3,6 +3,7 @@ import { Slider } from '../../components/Slider/Slider'
 import {FeaturedProducts} from "../../components/FeaturedProducts/FeaturedProducts.jsx"
 import "./Home.scss";
 import { Categories } from '../../components/Categories/Categories';
+import { Contact } from '../../components/Contact/Contact';
 
  const Home = () => {
   return (
@@ -11,6 +12,7 @@ import { Categories } from '../../components/Categories/Categories';
       <FeaturedProducts type="feautured"/>
       <Categories/>
       <FeaturedProducts type="trending"/>
+      <Contact/>
     </div>
   )
 }
